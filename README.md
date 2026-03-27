@@ -7,6 +7,8 @@
 
 ## prerequisites
 
+Device Requirements with reference to https://github.com/microsoft/TRELLIS.2/tree/main
+
 ```bash
 . ./setup.sh --new-env --basic --flash-attn --nvdiffrast --nvdiffrec --cumesh --o-voxel --flexgemm
 ```
@@ -17,14 +19,9 @@ bash download.sh
 
 
 ## run
-seed is fixed to official Qwen-Image seed `42` in code (no cli override).
 
-single command:
 ```bash
-python run_text2glb.py "a red racing car toy"
+python run_text2glb.py "a yellow taxi"
 ```
 
-interactive mode:
-```bash
-python run_text2glb.py
-```
+
